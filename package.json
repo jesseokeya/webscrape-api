@@ -1,0 +1,33 @@
+{
+  "name": "webscrape-api",
+  "version": "1.0.0",
+  "description": "a nodeJs module created to scrape webpages for information",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "Npm",
+    "JavaScript"
+  ],
+  "author": "Jesse Okeya",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.3.2",
+    "url-exists": "^1.0.3",
+    "website-info": "^1.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.1",
+    "morgan": "^1.8.1"
+  }
+}
